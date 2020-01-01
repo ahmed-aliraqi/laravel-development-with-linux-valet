@@ -18,3 +18,26 @@ sudo apt install php7.3 php7.3-fpm php7.3-mbstring php7.3-cli php7.2-xml php7.3-
 
 sudo apt install php7.4 php7.4-fpm php7.4-mbstring php7.4-cli php7.4-xml php7.4-bcmath php7.4-intl php7.4-sqlite3 php7.4-zip php7.4-mysql php7.4-gd php7.4-curl php7.4-pgsql php7.4-imagick
 ```
+
+## # Install mysql 5.7
+```
+sudo apt-get install mysql-server
+
+sudo mysql_secure_installation
+```
+```
+Validate Password Plugin ==> press no
+Remove anonymous users? yes
+Disallow root login remotely? yes
+Remove test database and access to it? yes
+Reload privilege tables now? yes
+```
+### Change mysql root password
+```
+sudo mysql -u root
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
+EXIT;
+
+sudo service mysql restart
+```
