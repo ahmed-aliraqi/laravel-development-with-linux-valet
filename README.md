@@ -1,4 +1,4 @@
-# Laravel deployment guide
+# Laravel Development Guide
 
 ## # add php repository 
 ```
