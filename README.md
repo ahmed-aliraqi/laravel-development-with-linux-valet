@@ -9,18 +9,18 @@ sudo apt update
 sudo apt upgrade
 ```
 ## # Install php (7.1, 7.2, 7.3 and 7.4)
-```
-sudo apt install php7.1 php7.1-fpm php7.1-mbstring php7.1-cli php7.1-xml php7.1-bcmath php7.1-intl php7.1-sqlite3 php7.1-zip php7.1-mysql php7.1-gd php7.1-curl php7.1-pgsql php7.1-imagick php7.1-dom
+```bash
+sudo apt install -y php7.1 php7.1-fpm php7.1-mbstring php7.1-cli php7.1-xml php7.1-bcmath php7.1-intl php7.1-sqlite3 php7.1-zip php7.1-mysql php7.1-gd php7.1-curl php7.1-pgsql php7.1-imagick php7.1-dom
 
-sudo apt install php7.2 php7.2-fpm php7.2-mbstring php7.2-cli php7.2-xml php7.2-bcmath php7.2-intl php7.2-sqlite3 php7.2-zip php7.2-mysql php7.2-gd php7.2-curl php7.2-pgsql php7.2-imagick php7.2-dom
+sudo apt install -y php7.2 php7.2-fpm php7.2-mbstring php7.2-cli php7.2-xml php7.2-bcmath php7.2-intl php7.2-sqlite3 php7.2-zip php7.2-mysql php7.2-gd php7.2-curl php7.2-pgsql php7.2-imagick php7.2-dom
 
-sudo apt install php7.3 php7.3-fpm php7.3-mbstring php7.3-cli php7.3-xml php7.3-bcmath php7.3-intl php7.3-sqlite3 php7.3-zip php7.3-mysql php7.3-gd php7.3-curl php7.3-pgsql php7.3-imagick php7.3-dom
+sudo apt install -y php7.3 php7.3-fpm php7.3-mbstring php7.3-cli php7.3-xml php7.3-bcmath php7.3-intl php7.3-sqlite3 php7.3-zip php7.3-mysql php7.3-gd php7.3-curl php7.3-pgsql php7.3-imagick php7.3-dom
 
-sudo apt install php7.4 php7.4-fpm php7.4-mbstring php7.4-cli php7.4-xml php7.4-bcmath php7.4-intl php7.4-sqlite3 php7.4-zip php7.4-mysql php7.4-gd php7.4-curl php7.4-pgsql php7.4-imagick php7.4-dom
+sudo apt install -y php7.4 php7.4-fpm php7.4-mbstring php7.4-cli php7.4-xml php7.4-bcmath php7.4-intl php7.4-sqlite3 php7.4-zip php7.4-mysql php7.4-gd php7.4-curl php7.4-pgsql php7.4-imagick php7.4-dom
 ```
 
 ## # Install mysql 5.7
-```
+```bash
 sudo apt-get install mysql-server
 
 sudo mysql_secure_installation
@@ -33,7 +33,7 @@ Remove test database and access to it? yes
 Reload privilege tables now? yes
 ```
 ### Change mysql root password
-```
+```bash
 sudo mysql -u root
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
