@@ -41,3 +41,56 @@ EXIT;
 
 sudo service mysql restart
 ```
+
+### Install Valet For Linux
+- Install OS Packages:
+```bash
+sudo apt-get install -y network-manager libnss3-tools jq xsel
+```
+- Install Valet Globally Via Composer CLI
+```bash
+composer global require cpriego/valet-linux
+```
+> Make sure to place Composer's system-wide vendor bin directory in your `$PATH`
+- The `park` Command
+  - Create a new directory on your machine by running something like `mkdir ~/Sites`. Next, `cd ~/Sites` and run `valet park`. This command will register your current working directory as a path that Valet should search for sites.
+  - Next, create a new Laravel site within this directory: `laravel new blog`.
+  - Open `http://blog.test` in your browser.
+
+
+
+### Display PHP Info In Your Browser
+
+```bash
+mkdir ~/phpinfo && echo '<?php phpinfo();' > ~/phpinfo/index.php && cd ~/phpinfo && valet link
+```
+> Then go to [phpinfo.test](http://phpinfo.test) to see your current php version
+
+
+
+### Add Valet Aliasses
+```bash
+curl https://raw.githubusercontent.com/ahmed-aliraqi/laravel-development-with-linux-valet/master/.bash_aliases >> ~/.bash_aliasses && source ~/.bash_aliasses
+```
+
+### Switch between php versions use the following command:
+
+##### PHP 7.1
+```bash
+use-php7.1
+```
+
+##### PHP 7.2
+```bash
+use-php7.2
+```
+
+##### PHP 7.3
+```bash
+use-php7.3
+```
+
+##### PHP 7.4
+```bash
+use-php7.4
+```
