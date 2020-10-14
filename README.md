@@ -64,13 +64,13 @@ composer global require cpriego/valet-linux
 ```bash
 mkdir ~/phpinfo && echo '<?php phpinfo();' > ~/phpinfo/index.php && cd ~/phpinfo && valet link
 ```
-> Then go to [phpinfo.test](http://phpinfo.test) to see your current php version
+> Then go to `phpinfo.test` to see your current php version
 
 
 
 ### Add Valet Aliasses
 ```bash
-curl https://raw.githubusercontent.com/ahmed-aliraqi/laravel-development-with-linux-valet/master/.bash_aliases >> ~/.bash_aliasses && source ~/.bash_aliasses
+curl https://raw.githubusercontent.com/ahmed-aliraqi/laravel-development-with-linux-valet/master/.bash_aliases >> ~/.bash_aliases && source ~/.bash_aliases
 ```
 
 ### Switch between php versions use the following command:
