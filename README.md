@@ -67,30 +67,24 @@ mkdir ~/phpinfo && echo '<?php phpinfo();' > ~/phpinfo/index.php && cd ~/phpinfo
 > Then go to `phpinfo.test` to see your current php version
 
 
-
-### Add Valet Aliasses
-```bash
-curl https://raw.githubusercontent.com/ahmed-aliraqi/laravel-development-with-linux-valet/master/.bash_aliases >> ~/.bash_aliases && source ~/.bash_aliases
-```
-
 ### Switch between php versions use the following command:
 
 ##### PHP 7.1
 ```bash
-use-php7.1
+valet use 7.1
 ```
 
 ##### PHP 7.2
 ```bash
-use-php7.2
+valet use 7.2
 ```
 
 ##### PHP 7.3
 ```bash
-use-php7.3
+valet use 7.3
 ```
 
 ##### PHP 7.4
 ```bash
-use-php7.4
+valet use 7.4
 ```
