@@ -8,7 +8,7 @@ sudo apt update
 
 sudo apt upgrade
 ```
-## # Install php (7.1, 7.2, 7.3, 7.4 and 8.0)
+## # Install php (7.1, 7.2, 7.3, 7.4, 8.0 and 8.1)
 ```bash
 sudo apt install -y unzip php7.1 php7.1-fpm php7.1-mbstring php7.1-cli php7.1-xml php7.1-bcmath php7.1-intl php7.1-sqlite3 php7.1-zip php7.1-mysql php7.1-gd php7.1-curl php7.1-pgsql php7.1-imagick php7.1-dom
 
@@ -19,6 +19,8 @@ sudo apt install -y unzip php7.3 php7.3-fpm php7.3-mbstring php7.3-cli php7.3-xm
 sudo apt install -y unzip php7.4 php7.4-fpm php7.4-mbstring php7.4-cli php7.4-xml php7.4-bcmath php7.4-intl php7.4-sqlite3 php7.4-zip php7.4-mysql php7.4-gd php7.4-curl php7.4-pgsql php7.4-imagick php7.4-dom
 
 sudo apt install -y unzip php8.0 php8.0-fpm php8.0-mbstring php8.0-cli php8.0-xml php8.0-bcmath php8.0-intl php8.0-sqlite3 php8.0-zip php8.0-mysql php8.0-gd php8.0-curl php8.0-pgsql php8.0-imagick php8.0-dom
+
+sudo apt install -y unzip php8.1 php8.1-fpm php8.1-mbstring php8.1-cli php8.1-xml php8.1-bcmath php8.1-intl php8.1-sqlite3 php8.1-zip php8.1-mysql php8.1-gd php8.1-curl php8.1-pgsql php8.1-imagick php8.1-dom
 ```
 
 ## # Install mysql 5.7
