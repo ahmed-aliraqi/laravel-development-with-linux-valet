@@ -23,7 +23,7 @@ sudo apt install -y unzip php8.0 php8.0-fpm php8.0-mbstring php8.0-cli php8.0-xm
 sudo apt install -y unzip php8.1 php8.1-fpm php8.1-mbstring php8.1-cli php8.1-xml php8.1-bcmath php8.1-intl php8.1-sqlite3 php8.1-zip php8.1-mysql php8.1-gd php8.1-curl php8.1-pgsql php8.1-imagick php8.1-dom
 ```
 
-## # Install mysql 5.7
+## # Install mysql 8
 ```bash
 sudo apt-get install mysql-server
 
@@ -96,4 +96,9 @@ valet use 7.4
 ##### PHP 8.0
 ```bash
 valet use 8.0
+
+
+##### PHP 8.1
+```bash
+valet use 8.1
 ```
