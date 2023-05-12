@@ -99,9 +99,17 @@ valet use 7.4
 ##### PHP 8.0
 ```bash
 valet use 8.0
-
+```
 
 ##### PHP 8.1
+
 ```bash
 valet use 8.1
 ```
+
+##### PHP 8.2
+
+```bash
+valet use 8.2
+```
+
