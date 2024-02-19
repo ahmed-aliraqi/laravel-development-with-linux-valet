@@ -118,3 +118,9 @@ valet use 8.1
 valet use 8.2
 ```
 
+##### PHP 8.3
+
+```bash
+valet use 8.3
+```
+
