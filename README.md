@@ -11,7 +11,7 @@ sudo apt update
 
 sudo apt upgrade
 ```
-## # Install php (7.1, 7.2, 7.3, 7.4, 8.0, 8.1 and 8.2)
+## # Install php (7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2 and 8.3)
 ```bash
 sudo apt install -y unzip php7.1 php7.1-fpm php7.1-mbstring php7.1-cli php7.1-xml php7.1-bcmath php7.1-intl php7.1-sqlite3 php7.1-zip php7.1-mysql php7.1-gd php7.1-curl php7.1-pgsql php7.1-imagick php7.1-dom php7.1-mongodb php7.1-redis
 
@@ -26,6 +26,8 @@ sudo apt install -y unzip php8.0 php8.0-fpm php8.0-mbstring php8.0-cli php8.0-xm
 sudo apt install -y unzip php8.1 php8.1-fpm php8.1-mbstring php8.1-cli php8.1-xml php8.1-bcmath php8.1-intl php8.1-sqlite3 php8.1-zip php8.1-mysql php8.1-gd php8.1-curl php8.1-pgsql php8.1-imagick php8.1-dom php8.1-mongodb php8.1-redis
 
 sudo apt install -y unzip php8.2 php8.2-fpm php8.2-mbstring php8.2-cli php8.2-xml php8.2-bcmath php8.2-intl php8.2-sqlite3 php8.2-zip php8.2-mysql php8.2-gd php8.2-curl php8.2-pgsql php8.2-imagick php8.2-dom php8.2-mongodb php8.2-redis
+
+sudo apt install -y unzip php8.3 php8.3-fpm php8.3-mbstring php8.3-cli php8.3-xml php8.3-bcmath php8.3-intl php8.3-sqlite3 php8.3-zip php8.3-mysql php8.3-gd php8.3-curl php8.3-pgsql php8.3-imagick php8.3-dom php8.3-mongodb php8.3-redis
 
 ```
 
