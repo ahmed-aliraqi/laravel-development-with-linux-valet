@@ -48,7 +48,7 @@ Reload privilege tables now? yes
 ```bash
 sudo mysql -u root
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
 EXIT;
 
 sudo service mysql restart
