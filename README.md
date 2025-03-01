@@ -29,6 +29,7 @@ sudo apt install -y unzip php8.2 php8.2-fpm php8.2-mbstring php8.2-cli php8.2-xm
 
 sudo apt install -y unzip php8.3 php8.3-fpm php8.3-mbstring php8.3-cli php8.3-xml php8.3-bcmath php8.3-intl php8.3-sqlite3 php8.3-zip php8.3-mysql php8.3-gd php8.3-curl php8.3-pgsql php8.3-imagick php8.3-dom php8.3-mongodb php8.3-redis
 
+sudo apt install -y unzip php8.4 php8.4-fpm php8.4-mbstring php8.4-cli php8.4-xml php8.4-bcmath php8.4-intl php8.4-sqlite3 php8.4-zip php8.4-mysql php8.4-gd php8.4-curl php8.4-pgsql php8.4-imagick php8.4-dom php8.4-mongodb php8.4-redis
 ```
 
 ## # Install mysql 8
