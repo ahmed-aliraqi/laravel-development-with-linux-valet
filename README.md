@@ -11,7 +11,7 @@ sudo apt update
 
 sudo apt upgrade
 ```
-## # Install php (7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2 and 8.3)
+## # Install php (7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2, 8.3 and 8.4)
 ```bash
 sudo apt install -y unzip php7.1 php7.1-fpm php7.1-mbstring php7.1-cli php7.1-xml php7.1-bcmath php7.1-intl php7.1-sqlite3 php7.1-zip php7.1-mysql php7.1-gd php7.1-curl php7.1-pgsql php7.1-imagick php7.1-dom php7.1-mongodb php7.1-redis
 
